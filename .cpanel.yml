@@ -12,5 +12,5 @@ deployment:
     - 'styles.css'
     - 'script.js'
   permissions:
-    - '755' for directories
-    - '644' for files
+    - '755'
+    - '644'
