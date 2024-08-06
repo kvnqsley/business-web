@@ -1,0 +1,154 @@
+.section_one {
+  display: inline-flex;
+  padding: 3rem min(9.47rem, 10.5%) 7.45406rem min(9.47rem, 10.5%);
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      0deg,
+      rgba(28, 81, 217, 0.6) 0%,
+      rgba(28, 81, 217, 0.6) 100%
+    ),
+    url("/assets/support.png"), lightgray 50%;
+  width: 100%;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section_one div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.section_one h1 {
+  color: var(--material-theme-white, #fff);
+  text-align: center;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section_one h2 {
+  color: var(--material-theme-white, #fff);
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147%;
+}
+
+.section_two {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2.25rem;
+  align-items: center;
+  padding: 0 min(9.47rem, 10.5%);
+}
+
+.section_two div:first-child {
+  width: max(24rem, 27%);
+  padding-left: min(3rem, 25%);
+  display: flex;
+  flex-direction: column;
+  gap: 1.37rem;
+}
+
+.section_two div:first-child button {
+  height: 3.75rem;
+  text-align: left;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: flex-start;
+  width: 16rem;
+}
+
+.terms {
+  margin-right: min(3.25rem, 3%);
+
+  text-align: justify;
+  width: 100%;
+}
+
+.terms h1 {
+  color: #000;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 183%;
+}
+
+.terms h2 {
+  color: #333;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 183%;
+}
+
+.terms p {
+  color: #667085;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.terms button {
+  white-space: nowrap;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 3.31rem;
+  margin-bottom: 1rem;
+}
+
+.faq h3 {
+  color: #000;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 183%; /* 2.745rem */
+  text-transform: capitalize;
+}
+
+.faq p {
+  color: #667085;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 1.6rem */
+  text-transform: lowercase;
+}
+@media screen and (max-width: 600px) {
+  .section_one {
+    padding: 3rem 0 7.45406rem 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .section_two {
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+
+  .section_two div:first-child {
+    flex-direction: row;
+    padding-left: 0;
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  .section_two div:first-child button {
+    white-space: nowrap;
+    height: auto;
+  }
+}

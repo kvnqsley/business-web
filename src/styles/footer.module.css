@@ -1,0 +1,152 @@
+.body {
+  background-color: #1c68f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4vh;
+  padding-bottom: 5vh;
+  font-size: 14px;
+}
+
+.content p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.first {
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.first p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.second {
+  width: 42.8%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.third {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2vw;
+}
+
+.fourth {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+}
+
+.fourth p{
+  font-size: 12px;
+}
+
+.fourth button {
+   text-align: left;
+}
+
+.hovereffect p:hover {
+    color: #ff3793;
+    transition: color 0.3s ease;
+ }
+
+.fourth h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.fourth p {
+    font-size: 18px;
+}
+
+.fifth {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+.six {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 770px) {
+  .first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .second {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 434px) {
+  .content {
+    width: 78%;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    text-align: center;
+  }
+
+  .first {
+    padding-top: 5vh;
+  }
+
+  .second {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+  }
+
+  .third {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+  }
+
+  .fourth {
+    gap: 4vw;
+  }
+
+  .fourth button {
+    text-align: center;
+ }
+
+  .fifth {
+    justify-content: space-between;
+  }
+
+  .six {
+    flex-direction: column;
+  }
+}

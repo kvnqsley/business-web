@@ -1,0 +1,227 @@
+.section_one,
+.section_two,
+.section_three,
+.section_four {
+  width: 100%;
+}
+
+.section_one {
+  background: linear-gradient(
+      0deg,
+      rgba(68, 117, 242, 0.57) 0%,
+      rgba(68, 117, 242, 0.57) 100%
+    ),
+    url("/assets/team-members.jpeg"),
+    lightgray 0px -228.041px / 100% 196.771% no-repeat;
+  background-position: left;
+  background-size: 80rem;
+  display: flex;
+  padding: 2rem min(9.47rem, 10.5%);
+  min-height: 50vh;
+}
+
+.section_one div {
+  display: flex;
+  width: max(93%, 25rem);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.875rem;
+  margin: auto;
+}
+
+.section_one h1 {
+  color: var(--white---text, #fff);
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+.section_one h2 {
+  color: var(--white---text, #fff);
+  text-align: center;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section_one p {
+  color: var(--white---text, #fff);
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147%;
+}
+
+.section_two {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+  flex-shrink: 0;
+  padding: 2rem min(9.47rem, 10.5%);
+}
+
+.section_two svg {
+  width: 100%;
+}
+
+.section_two h1 {
+  color: #303030;
+  font-size: 2.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.section_two p {
+  color: #667085;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147%;
+  width: 60%;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.section_three {
+  display: inline-flex;
+  gap: 1.875rem;
+  margin-top: 3.81rem;
+  margin: auto;
+  padding: 2rem min(9.47rem, 10.5%);
+}
+
+.section_three ul {
+  display: flex;
+  padding: 2.8125rem 1.875rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  border-radius: 1rem;
+  border: 0.5px solid var(--strokes-05-e-7-e-8-e-9, #e7e8e9);
+  background: #f3fbff;
+  box-shadow: 0px 6px 48px 0px rgba(48, 48, 48, 0.03);
+}
+
+.section_three ul:first-child {
+  background: #fff8fa;
+}
+
+.section_three ul:nth-child(2) {
+  background: #f3fffb;
+}
+
+.section_three li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.section_three h1 {
+  color: var(--Main---303030, #303030);
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+
+.section_three p {
+  color: var(--Body-Text---606060, #606060);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.section_four {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-shrink: 0;
+  padding: 2rem min(9.47rem, 10.5%);
+  background-color: #f5f8ff;
+}
+
+.section_four ul:not(:last-child) {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.section_four ul:not(:last-child) li {
+  display: flex;
+  padding: 1.5rem 1rem 1.5rem 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0px 6px 48px 0px rgba(48, 48, 48, 0.03);
+}
+
+.section_four h1 {
+  align-self: stretch;
+  color: var(--Gray-900, #101828);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 147%;
+}
+
+.section_four h2 {
+  color: var(--Gray-500, #667085);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147%;
+}
+
+.section_four p {
+  color: #414659;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 450px) {
+  .section_two p {
+    margin: auto;
+    width: 93%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .section_two {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section_two h1 {
+    font-size: 2rem;
+  }
+
+  .section_three,
+  .section_four ul:first-child {
+    flex-direction: column;
+  }
+
+  .section_two p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .section_two {
+    padding-inline: 0;
+  }
+}

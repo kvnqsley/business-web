@@ -1,0 +1,16 @@
+---
+deployment:
+  target: 'public_html'
+  exclude:
+    - '.next'
+    - 'node_modules'
+    - 'package.json'
+    - 'package-lock.json'
+  include:
+    - 'index.html'
+    - 'static'
+    - 'styles.css'
+    - 'script.js'
+  permissions:
+    - '755' for directories
+    - '644' for files

@@ -1,0 +1,144 @@
+.section_one {
+  display: inline-flex;
+  padding: 3rem min(15.94rem, 17%) 13.4375rem min(15.94rem, 17%);
+  justify-content: center;
+  align-items: center;
+  background: var(
+    --bg,
+    linear-gradient(
+      0deg,
+      rgba(28, 81, 217, 0.6) 0%,
+      rgba(28, 81, 217, 0.6) 100%
+    ),
+    url("/assets/laptop-on-table.jpeg"),
+    lightgray 50% / cover no-repeat
+  );
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.section_one div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.section_one h1 {
+  color: var(--material-theme-white, #fff);
+  text-align: center;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section_one p {
+  color: var(--material-theme-white, #fff);
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147%;
+}
+
+.form {
+  display: flex;
+  width: max(63.8%, 22.1rem);
+  padding: 3.375rem min(1.62rem, 6.9%) 3.875rem min(1.62rem, 6.9%);
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-shrink: 0;
+  border-radius: 0.875rem;
+  background: #fff;
+  box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.12);
+  margin: auto;
+  transform: translateY(-7rem);
+}
+
+.form h1 {
+  color: var(--Main---303030, #303030);
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.875rem;
+  text-align: center;
+}
+
+.section_three {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+}
+
+.section_three li {
+  display: flex;
+  width: 16.44rem;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 0.75rem 6.25rem 0 rgba(33, 31, 92, 0.1);
+}
+
+.section_three li:last-child {
+  gap: 1rem;
+}
+
+.section_three li:last-child p {
+  margin-top: auto;
+}
+
+.section_three li h3 {
+  color: var(--Gray-900, #101828);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 147%;
+}
+
+.section_three li p {
+  color: var(--Gray-500, #667085);
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147%;
+}
+
+.section_three li a {
+  font-size: 1.2rem;
+  color: #1c68f5;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.section_three h1 {
+  color: var(--Main---303030, #303030);
+  text-align: center;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.75rem;
+}
+
+.section_three h2 {
+  color: var(--Body-Text---606060, #606060);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147%;
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    transform: translateY(0px);
+    width: 100%;
+  }
+}

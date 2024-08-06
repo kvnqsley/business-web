@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fuschia-100: #ff3793;
+  --gray-500: #667085;
+  --text-color: #ffffffcc;
+  --body-text: #606060;
+  --primary-color: #ffffff;
+  --secondary-color: #608af4;
+}
+
+* {
+  /* outline: 1px solid red; */
+  /* overflow: hidden;S */
+}
+
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("/font/GTWalsheimPro-Medium.woff");
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "GT Walsheim Pro";
+}
+
+main {
+  overflow: hidden;
+}
+
+button[data-btn="primary"] {
+  padding: 0.7rem 2.38rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+button[data-btn="secondary"] {
+  padding: 0.7rem 2.38rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border: 1px solid #1c68f5;
+  color: #1c68f5;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
