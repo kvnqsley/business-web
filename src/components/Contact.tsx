@@ -20,7 +20,7 @@ const Contact = () => {
             <p>Speak to our friendly team.</p>
           </div>
 
-          <Link href={"mailto:sales@talk-4.co.uk"}>sales@talk-4.co.uk</Link>
+          <Link href={"mailto:zaddytomany@swiftcreations.com.ng"}>zaddytomany@swiftcreations.com.ng</Link>
         </li>
 
         <li>
@@ -31,7 +31,7 @@ const Contact = () => {
             <p>We are here to help.</p>
           </div>
 
-          <Link href={"mailto:support@talk-4.co.uk"}>support@talk-4.co.uk</Link>
+          <Link href={"mailto:zaddytomany@swiftcreations.com.ng"}>zaddytomany@swiftcreations.com.ng</Link>
         </li>
 
         <li>
@@ -42,7 +42,7 @@ const Contact = () => {
             <p>Mon-Fri from 8am to 5pm.</p>
           </div>
 
-          <Link href={"tel:44(0)3333445456"}>44 (0) 3333 445 456</Link>
+          <Link href={"tel:2348154347342"}>234 (0) 815 434 7342</Link>
         </li>
 
         <li>
@@ -51,8 +51,7 @@ const Contact = () => {
             <h3>Registered Office</h3>
 
             <p>
-              Hertfordshire: 2nd Floor, Unit3, Gateway 1000, Whittle Way,
-              Stevenage, SG1 2FP
+            2, Albert Macualay, Ikeja, Lagos Nigeria
             </p>
           </div>
         </li>

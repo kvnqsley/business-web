@@ -8,7 +8,7 @@ const RequestQuote = () => {
         <h1>Request Quote?</h1>
 
         <p>
-          We&apos;re here to drive your business success, click the button below
+        Guidance on healthy eating, fitness, and lifestyle choices, click the button below
           to request a quote
         </p>
         <Link href="/get-in-touch">

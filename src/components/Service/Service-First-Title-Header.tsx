@@ -4,15 +4,15 @@ import {Search, ThreeUser, Work} from "../Icons";
 import styles from "../../styles/service/service_first_title_header.module.css"
 
 
-const FirstTitleHeader = ({telephony_data }:{telephony_data:any}) => {
+const FirstTitleHeader = ({detail }:{detail:any}) => {
   
   return (
     <div className={styles.body}>
 
         <div className={styles.content}>
 
-            <h1>{telephony_data.header}</h1>
-            <p>{telephony_data.paragraph}</p>
+            <h1>{detail.header}</h1>
+            <p>{detail.paragraph}</p>
 
         </div>
 

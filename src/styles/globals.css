@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --fuschia-100: #ff3793;
+  --fuschia-100: #571232;
   --gray-500: #667085;
   --text-color: #ffffffcc;
   --body-text: #606060;
   --primary-color: #ffffff;
-  --secondary-color: #608af4;
+  --secondary-color: #1cafcf;
 }
 
 * {
@@ -43,8 +43,8 @@ button[data-btn="secondary"] {
   padding: 0.7rem 2.38rem;
   border-radius: 0.5rem;
   background-color: transparent;
-  border: 1px solid #1c68f5;
-  color: #1c68f5;
+  border: 1px solid #8faadb;
+  color: #081327;
   text-align: center;
   font-size: 1rem;
   font-weight: 500;

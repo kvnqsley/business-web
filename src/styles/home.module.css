@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: #1c68f5;
+  color: #1cafcf;
   text-align: center;
   font-size: 1rem;
   font-style: normal;
@@ -50,7 +50,7 @@
 }
 
 .hero_section_one_header_sub_text h6 {
-  color: var(--talk4-blue, #1c68f5);
+  color: var(--talk4-blue, #1cafcf);
   text-align: center;
   font-size: 3rem;
   font-style: normal;
@@ -258,7 +258,6 @@
 
 .hero_section_five li {
   display: flex;
-  width: 16.44rem;
   padding: 1rem;
   flex-direction: column;
   align-items: flex-start;

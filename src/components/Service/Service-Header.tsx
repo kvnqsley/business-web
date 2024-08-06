@@ -8,7 +8,7 @@ import { MouseEventHandler, useState } from "react";
 
 const SubHeader = () => {
 
-  const [selectedService, setSelectedService] = useState("BUSINESS TELEPHONY");
+  const [selectedService, setSelectedService] = useState("TELEMEDICINE");
 
   const handleButtonClick: MouseEventHandler = (e) => {
     const target = e.target as HTMLButtonElement;
@@ -17,7 +17,6 @@ const SubHeader = () => {
 
     setSelectedService(targetName);
 
-    console.log(selectedService)
 
   };
 
@@ -29,24 +28,21 @@ const SubHeader = () => {
             <ul className={styles.nav_links}>
                 <button
                 onClick={handleButtonClick}>
-                  BUSINESS TELEPHONY
+                  TELEMEDICINE
                 </button>
                 <button
                 onClick={handleButtonClick}>
-                  BUSINESS CONNECTIVITY
+                  PHARMACY
                 </button>
                 <button
                 onClick={handleButtonClick}>
-                  BUSINESS MOBILES
+                PHYSICAL SERVICE
                 </button>
                 <button
                 onClick={handleButtonClick}>
-                  CLOUD SERVICES
+                  NUTRITION AND WELLNESS
                 </button>
-                <button
-                onClick={handleButtonClick}>
-                  MANAGED IT SERVICES
-                </button>
+            
             </ul>
         </div>
     </div>

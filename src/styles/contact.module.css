@@ -5,8 +5,8 @@
   align-items: center;
   background: linear-gradient(
       0deg,
-      rgba(28, 81, 217, 0.6) 0%,
-      rgba(28, 81, 217, 0.6) 100%
+      rgba(115, 121, 136, 0.65) 0%,
+      rgba(68, 128, 168, 0.65) 100%
     ),
     url("/assets/support.png"), lightgray 50%;
   width: 100%;

@@ -14,7 +14,7 @@ export default function ServiceIndex() {
   const query = router.query;
 
   const [selectedService, setSelectedService] = useState(
-    query.page || "business-telephony"
+    query.page || ""
   );
 
   const handleButtonClick: MouseEventHandler = (e) => {
@@ -32,16 +32,15 @@ export default function ServiceIndex() {
   const renderContent = () => {
     //
     switch (selectedService) {
-      case "business-telephony":
+      case "telemedicine":
         return <Telephony />;
-      case "business-connectivity":
+      case "pharmacy":
         return <Connectivity />;
-      case "business-mobile":
+      case "physical_service":
         return <Mobile />;
-      case "cloud-services":
+      case "nutrition_and_wellness":
         return <Cloud />;
-      case "managed-it-services":
-        return <ManagedIT />;
+   
       default:
         return <div>Default Content Here</div>;
     }
@@ -56,59 +55,48 @@ export default function ServiceIndex() {
           <ul className={styles.nav_links}>
             <button
               className={
-                selectedService == "business-telephony"
+                selectedService == ""
                   ? styles.nav_links_button
                   : styles.nav_links_li
               }
               onClick={handleButtonClick}
-              id="business-telephony"
+              id=""
             >
-              BUSINESS TELEPHONY
+TELEMEDICINE            </button>
+            <button
+              className={
+                selectedService == "pharmacy"
+                  ? styles.nav_links_button
+                  : styles.nav_links_li
+              }
+              onClick={handleButtonClick}
+              id="pharmacy"
+            >
+              PHAMRMACY
             </button>
             <button
               className={
-                selectedService == "business-connectivity"
+                selectedService == "physical_service"
                   ? styles.nav_links_button
                   : styles.nav_links_li
               }
               onClick={handleButtonClick}
-              id="business-connectivity"
+              id="physical_service"
             >
-              BUSINESS CONNECTIVITY
+              PHYSICAL SERVICES
             </button>
             <button
               className={
-                selectedService == "business-mobile"
+                selectedService == "nutrition_and_wellness"
                   ? styles.nav_links_button
                   : styles.nav_links_li
               }
               onClick={handleButtonClick}
-              id="business-mobile"
+              id="nutrition_and_wellness"
             >
-              BUSINESS MOBILES
+              NUTRITION AND WELLNESS
             </button>
-            <button
-              className={
-                selectedService == "cloud-services"
-                  ? styles.nav_links_button
-                  : styles.nav_links_li
-              }
-              onClick={handleButtonClick}
-              id="cloud-services"
-            >
-              CLOUD SERVICES
-            </button>
-            <button
-              className={
-                selectedService == "managed-it-services"
-                  ? styles.nav_links_button
-                  : styles.nav_links_li
-              }
-              onClick={handleButtonClick}
-              id="managed-it-services"
-            >
-              MANAGED IT SERVICES
-            </button>
+          
           </ul>
         </div>
       </div>

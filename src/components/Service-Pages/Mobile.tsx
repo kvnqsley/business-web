@@ -91,7 +91,7 @@ const Mobile = () => {
 
     <>
 
-        <FirstTitleHeader telephony_data={telephony_data.first_title_header} />
+        <FirstTitleHeader detail={telephony_data.first_title_header} />
 
         <MainService main_service_data={telephony_data.main_service} />
 

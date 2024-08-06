@@ -55,7 +55,7 @@ const GetInTouch = () => {
                   type="email"
                   id="email"
                   className="mt-[0.37rem] rounded-[0.5rem] border py-[2rem] pl-[1.5rem] border-[#DFDFE0] w-full"
-                  placeholder="e.g talkforlife@gmail.uk.com"
+                  placeholder="e.g swiftcreations@gmail.com"
                   name="email"
                 />
               </li>
@@ -67,7 +67,7 @@ const GetInTouch = () => {
                   type="tel"
                   id="phone"
                   className="mt-[0.37rem] rounded-[0.5rem] border py-[2rem] pl-[1.5rem] border-[#DFDFE0] w-full"
-                  placeholder="+44(555)000-0000"
+                  placeholder="+234(815)434-7342"
                   name="phone"
                 />
               </li>
@@ -86,7 +86,7 @@ const GetInTouch = () => {
 
                 <button
                   type="submit"
-                  className="bg-[#1c68f5] self-start"
+                  className="bg-[#1cafcf] self-start"
                   data-btn="primary"
                 >
                   Submit
@@ -113,7 +113,7 @@ const GetInTouch = () => {
                 <p>Speak to our friendly team.</p>
               </div>
 
-              <Link href={"mailto:sales@talk-4.co.uk"}>sales@talk-4.co.uk</Link>
+              <Link href={"mailto:zaddytomany@swiftcreations.com.ng"}>zaddytomany@swiftcreations.com.ng</Link>
             </li>
 
             <li>
@@ -123,10 +123,7 @@ const GetInTouch = () => {
 
                 <p>We are here to help.</p>
               </div>
-
-              <Link href={"mailto:support@talk-4.co.uk"}>
-                support@talk-4.co.uk
-              </Link>
+              <Link href={"mailto:zaddytomany@swiftcreations.com.ng"}>zaddytomany@swiftcreations.com.ng</Link>
             </li>
 
             <li>
@@ -137,7 +134,7 @@ const GetInTouch = () => {
                 <p>Mon-Fri from 8am to 5pm.</p>
               </div>
 
-              <Link href={"tel:44(0)3333445456"}>44 (0) 3333 445 456</Link>
+              <Link href={"tel:2348154347342"}>234 (0) 815 434 7342</Link>
             </li>
 
             <li>
@@ -146,9 +143,8 @@ const GetInTouch = () => {
                 <h3>Location</h3>
 
                 <p>
-                  Hertfordshire: 2nd Floor, Unit3, Gateway 1000, Whittle Way,
-                  Stevenage, SG1 2FP
-                </p>
+            2, Albert Macualay, Ikeja, Lagos Nigeria
+            </p>
               </div>
             </li>
           </ul>

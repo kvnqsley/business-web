@@ -10,31 +10,31 @@ import Header from "@/components/Header";
 
 export default function Home() {
 
-    const telephony_data = {
+    const pharmacy = {
 
       first_title_header: {
-        header: "Business Telephony tailor-made for you",
-        paragraph: "Our voice services ensures that your customers can reach you when they need, all the time!",
+        header: "Bespoke connectivity solutions",
+        paragraph: "Our connectivity solutions are reliable, designed to meet your business needs and fit your budget.",
       },
 
       main_service: {
 
         first: {
-            image: "cloudpbx",
-            heading: "Flexible Communication",
-            paragraph: "Our Cloud PBX is simple and effective for single-site, multi-site and distributed workforce"
+            image: "fibre",
+            heading: "Fibre Connection",
+            paragraph: "Fibre Broadband is an ideal solution for businesses who rely on a fast, high performing internet connection"
         },
 
         second: {
-            image: "3cx",
-            heading: "Unified Communication",
-            paragraph: "Enterprise-grade unified communication system deployed by certified engineers"
+            image: "ethernet",
+            heading: "Ethernet Connection",
+            paragraph: "A dedicated, business-grade internet connection with extremely reliable speeds, ranging from 10Mbps to 10Gps."
         },
 
         third: {
-            image: "sip",
-            heading: "Resilient Communication",
-            paragraph: "Transform your PBX with resilient and reliable SIP Trunks to communicate with your clients more effectively"
+            image: "broadband",
+            heading: "Broadband Connection",
+            paragraph: "Providing a step up from traditional home broadband solutions, ADSL Broadband offers your business more resilience and speed."
         }
 
       },
@@ -42,26 +42,26 @@ export default function Home() {
       service_explanation: {
 
         first: {
-            image: "emailicon",
-            heading: "Voicemail-2-Email",
+            image: "superfast_rocket",
+            heading: "Superfast connections",
             paragraph: "Never miss a call again. When you are out of the office, calls will be routed to your mobile."
         },
 
         second: {
-            image: "portraiticon",
-            heading: "Call Recording",
+            image: "reliable1",
+            heading: "Reliable",
             paragraph: "We offer a range of call recording services to support your business for training and quality"
         },
 
         third: {
-            image: "barchart",
-            heading: "Reduce your costs",
+            image: "4gassured",
+            heading: "4G Assured",
             paragraph: "Our voice packages are designed to reduce your telecoms costs compared to other providers."
         },
 
         fourth: {
-            image: "dartdot",
-            heading: "Support and Maintenance",
+            image: "rapid_installation",
+            heading: "Rapid installation times",
             paragraph: "We manage your phone system with ease and flexibility to suit your business needs."
         }
 
@@ -75,13 +75,13 @@ export default function Home() {
 
         <SubHeader />
 
-        <FirstTitleHeader telephony_data={telephony_data.first_title_header} />
+        <FirstTitleHeader detail={pharmacy.first_title_header} />
 
-        <MainService main_service_data={telephony_data.main_service} />
+        <MainService main_service_data={pharmacy.main_service} />
 
         <SecondTitleHeader />
 
-        <ServiceExplanations service_explanation_data={telephony_data.service_explanation} />
+        <ServiceExplanations service_explanation_data={pharmacy.service_explanation} />
 
         <ServiceContactUs />
 

@@ -17,21 +17,19 @@ const Footer = () => {
         <div className={styles.first}>
           <div className={styles.second}>
             <Image
-              src="/assets/logo_white.svg"
+              src="/assets/logo_alt.png"
               alt="Website Logo"
               width={280}
               height={110}
             />
             <div className={styles.fourth}>
               <p>
-                Talk4 is a UK independent business telecommunications provider
-                delivering fixed line, mobile, unified communications,
-                connectivity and cloud solutions.
+              At Swift Creations, we&apos;re dedicated to providing exceptional healthcare experiences that transform lives. Our team of compassionate professionals is committed to delivering personalized care, expert guidance, and supportive resources to empower healthier communities. With a focus on empathy, innovation, and excellence, we strive to make a meaningful difference in the lives of our patients and their families.
+
+
               </p>
               <p>
-                We help small, medium and enterprise companies in the UK with
-                their Business Technology needs, enabling them to transform and
-                expand.
+              Dedicated to delivering personalized healthcare solutions with empathy and excellence. Discover how we can support your well-being.
               </p>
             </div>
           </div>
@@ -40,11 +38,11 @@ const Footer = () => {
             <div className={styles.fourth + " " + styles.hovereffect}>
               <h4>Talk4</h4>
               <Link href="/about">
-                <p>Why Talk4</p>
+                <p>Why SwiftCreations</p>
               </Link>
-              <p>SIM Only Deals</p>
-              <p>Data Only Deals</p>
-              <p>Activate SIM</p>
+              <p>Telemedicine</p>
+              <p>Urgent care</p>
+              <p>Physical care</p>
             </div>
 
             <div className={styles.fourth + " " + styles.hovereffect}>
@@ -68,7 +66,7 @@ const Footer = () => {
             <div className={styles.fourth}>
               <h4>Contact Information</h4>
               <p>Call Us on: 03333 445 456</p>
-              <p>Email us at: info@talk4.co.uk</p>
+              <p>Email us at: zaddytomany@swiftcreations.com.ng</p>
               <div className={styles.fifth}>
                 <button>
                   <Image
@@ -102,7 +100,7 @@ const Footer = () => {
         <div className={styles.six}>
           <p>© 2024, All Rights Reserved</p>
           <p>-</p>
-          <p>Talk4Telecoms.co.uk</p>
+          <p>Swiftcreations.com.ng</p>
         </div>
       </div>
     </div>

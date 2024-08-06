@@ -11,7 +11,7 @@ import Header from "@/components/Header";
 
 export default function Home() {
 
-    const telephony_data = {
+    const nutirtion_and_wellness = {
 
       first_title_header: {
         header: "Bespoke mobile solutions for your business",
@@ -94,15 +94,15 @@ export default function Home() {
 
         <SubHeader />
 
-        <FirstTitleHeader telephony_data={telephony_data.first_title_header} />
+        <FirstTitleHeader detail={nutirtion_and_wellness.first_title_header} />
 
-        <MainService main_service_data={telephony_data.main_service} />
+        <MainService main_service_data={nutirtion_and_wellness.main_service} />
 
         <SecondTitleHeader />
 
-        <ServiceExplanations service_explanation_data={telephony_data.service_explanation} />
+        <ServiceExplanations service_explanation_data={nutirtion_and_wellness.service_explanation} />
 
-        <ChooseNetwork choose_network={telephony_data.choose_network} />
+        <ChooseNetwork choose_network={nutirtion_and_wellness.choose_network} />
 
         <ServiceContactUs />
 

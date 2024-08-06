@@ -11,7 +11,7 @@ import Header from "@/components/Header";
 
 export default function Home() {
 
-    const telephony_data = {
+    const physical_service = {
 
       first_title_header: {
         header: "Software as a service",
@@ -94,15 +94,15 @@ export default function Home() {
 
         <SubHeader />
 
-        <FirstTitleHeader telephony_data={telephony_data.first_title_header} />
+        <FirstTitleHeader detail={physical_service.first_title_header} />
 
-        <MainService main_service_data={telephony_data.main_service} />
+        <MainService main_service_data={physical_service.main_service} />
 
         <SecondTitleHeader />
 
-        <ServiceExplanations service_explanation_data={telephony_data.service_explanation} />
+        <ServiceExplanations service_explanation_data={physical_service.service_explanation} />
 
-        <ChooseNetwork choose_network={telephony_data.choose_network} />
+        <ChooseNetwork choose_network={physical_service.choose_network} />
 
         <ServiceContactUs />
 

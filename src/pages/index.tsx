@@ -31,24 +31,20 @@ export default function Home() {
           <div className={styles.hero_section_one_header}>
             <div className="flex flex-col gap-[1.06rem]">
               <b className={styles.hero_section_one_header_main_text}>
-                TRANSFORMING TELECOMS FOR
+              Transforming Lives, One Patient at a Time
               </b>
 
               <div className={styles.hero_section_one_header_sub_text}>
-                <h6>SMALL AND MEDIUM BUSINESES</h6>
+                <h6>Experience personalized care, tailored to your unique needs</h6>
 
                 <p>
-                  At Talk4 Telecoms has been empowering its ever growing and
-                  fiercely loyal clientele by creating cost-effective and
-                  bespoke packages and providing unlimited access to highly
-                  trained and dedicated service and support teams who go the
-                  extra mile for any customer
+                At Swift Creations, we&apos;ve been dedicated to enhancing the well-being of our valued patients by crafting personalized and affordable healthcare solutions, and providing unparalleled access to our team of compassionate and expert medical professionals who deliver exceptional care and support, going above and beyond for every individual.
                 </p>
               </div>
             </div>
             <Link href="/get-in-touch">
-              <button data-btn="primary" className="bg-[#1c68f5]">
-                Talk to sale person
+              <button data-btn="primary" className="bg-[#1cafcf]">
+              Learn More
               </button>
             </Link>
           </div>
@@ -108,12 +104,11 @@ export default function Home() {
           </div>
         </section>
 
-        <Partners />
 
         <section className={styles.hero_section_three}>
           <div className="flex flex-col items-center gap-[4.31rem]">
             <div className="flex flex-col items-center gap-[0.5rem]">
-              <h1>Telecoms Services</h1>
+              <h1>Health Services</h1>
 
               <h2>Expert solutions and services for businesses.</h2>
             </div>
@@ -123,12 +118,11 @@ export default function Home() {
                 <Telephone />
 
                 <div>
-                  <h3>Business Telephony</h3>
+                  <h3>Primary care</h3>
 
                   <p>
-                    With Talk4 Telecoms, you can achieve a level of flexibility
-                    and efficiency that traditional on-site telephony services
-                    do not offer.
+                  Comprehensive routine check-ups, preventive care, and treatment for common illnesses, helping you stay healthy and thrive.
+
                   </p>
                 </div>
 
@@ -142,11 +136,11 @@ export default function Home() {
                 <Connectivity />
 
                 <div>
-                  <h3>Connectivity</h3>
+                  <h3>Specialized care</h3>
 
                   <p>
-                    With our business connectivity services, you business can
-                    communicate with customers and employees.
+                  Expert medical attention for specific conditions, from diagnosis to treatment and management, with a focus on achieving optimal outcomes.
+
                   </p>
                 </div>
 
@@ -160,12 +154,11 @@ export default function Home() {
                 <Mobiles />
 
                 <div>
-                  <h3>Mobiles</h3>
+                  <h3>Urgent Care</h3>
 
                   <p>
-                    As a leading independent telecoms provider in the UK, Talk4
-                    Telecoms can help you find the right mobile solution for
-                    your business.
+                  Prompt and effective treatment for non-life-threatening emergencies, getting you back on your feet quickly and safely.
+
                   </p>
                 </div>
 
@@ -179,12 +172,11 @@ export default function Home() {
                 <Cloud />
 
                 <div>
-                  <h3>Cloud</h3>
+                  <h3>Pharmacy Services</h3>
 
                   <p>
-                    Revolutionise your business with the cloud and enjoy a
-                    smooth, uninterrupted journey to the cloud with our range of
-                    services.
+                  Convenient access to medications, expert advice, and personalized support, ensuring you get the most from your treatment.
+
                   </p>
                 </div>
 
@@ -198,7 +190,7 @@ export default function Home() {
         </section>
 
         <section className={styles.hero_section_four}>
-          <h1>Business services</h1>
+          <h1>Supportive service</h1>
 
           <ul className="inline-flex m-auto w-[83%]  gap-[2.38rem] flex-col xl:flex-row  justify-center">
             <li className="bg-[#ffffff]  ">
@@ -211,11 +203,11 @@ export default function Home() {
               />
 
               <div className="inline-flex flex-col  gap-[.5rem] p-[1.2rem]">
-                <h2>Managed Services</h2>
+                <h2>Telemedicine</h2>
 
                 <p>
-                  In a fast-changing, digital-first business world, IT
-                  innovation is key for SMEs to compete more effectively.
+                Flexible virtual consultations and remote monitoring, bringing healthcare to your doorstep and streamlining care.
+
                 </p>
 
                 <Link href={"/service?page=managed-it-services"}>
@@ -228,11 +220,11 @@ export default function Home() {
             <li className="flex h-full gap-[1.88rem] flex-col ">
               <div className={styles.card}>
                 <div className="flex order-2 sm:order-1 flex-col items-start gap-[0.5rem] pl-[1.2rem]">
-                  <h2>Unified Communications</h2>
+                  <h2>Physical Therapy</h2>
 
                   <p>
-                    We offer you a choice of simple and sophisticated business
-                    phone lines and voice services to suit your business needs.
+                  Compassionate counseling, therapy, and support for mental wellness, helping you navigate life&apos;s challenges.
+
                   </p>
 
                   <Link href={"/service?page=business-telephony"}>
@@ -253,12 +245,11 @@ export default function Home() {
               <div className={styles.card}>
                 <div className="flex flex-col items-start gap-[0.5rem] order-2 sm:order-1 pl-[1.2rem]">
                   <div>
-                    <h2>Digital Transformation</h2>
+                    <h2>Nutrition and Wellness</h2>
 
                     <p>
-                      Revolutionaries your business with the cloud and enjoy a
-                      smooth, uninterrupted journey to the cloud with our range
-                      of services
+                    Guidance on healthy eating, fitness, and lifestyle choices, supporting your journey to wellness and optimal health.
+
                     </p>
                   </div>
 

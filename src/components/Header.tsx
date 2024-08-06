@@ -17,17 +17,7 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <div className={styles.top_header}>
-        <div className={styles.top_header_btns}>
-          <button>
-            <ThreeUser /> Everyone
-          </button>
-
-          <button>
-            <Work /> <p> For Businesses</p>
-          </button>
-        </div>
-      </div>
+    
 
       <nav className={styles.nav_bar}>
         <ul className={styles.nav_bar_list}>
@@ -52,7 +42,7 @@ const Header = () => {
           <ul>
             <li>
               <Link
-                className={pathname == "/service" ? "text-[#1c68f5] " : ""}
+                className={pathname == "/service" ? "text-[#1cafcf] " : ""}
                 href="/service"
               >
                 Services
@@ -61,38 +51,18 @@ const Header = () => {
 
             <li>
               <Link
-                className={pathname == "/about" ? "text-[#1c68f5] " : ""}
+                className={pathname == "/about" ? "text-[#1cafcf] " : ""}
                 href="/about"
               >
-                Why choose Talk4
+                Why choose SwiftCreations
               </Link>
             </li>
 
-            <li>
-              <Link
-                className={
-                  pathname == "/remote-working" ? "text-[#1c68f5] " : ""
-                }
-                href="/remote-working"
-              >
-                Remote Working
-              </Link>
-            </li>
+     
 
             <li>
               <Link
-                className={
-                  pathname == "/support-center" ? "text-[#1c68f5] " : ""
-                }
-                href="/support-center"
-              >
-                Support Center
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                className={pathname == "/get-in-touch" ? "text-[#1c68f5] " : ""}
+                className={pathname == "/get-in-touch" ? "text-[#1cafcf] " : ""}
                 href="/get-in-touch"
               >
                 Get in Touch
@@ -106,7 +76,7 @@ const Header = () => {
             <Search />
           </button>
 
-          {/* <button className="bg-[#1c68f5]" data-btn="primary">
+          {/* <button className="bg-[#1cafcf]" data-btn="primary">
             Register
           </button>  //i removed padding-inline style from this buttons
 
@@ -129,7 +99,7 @@ const Header = () => {
               <ul className="flex flex-col justify-center items-center gap-[1.94rem]">
                 <li>
                   <Link
-                    className={pathname == "/service" ? "text-[#1c68f5] " : ""}
+                    className={pathname == "/service" ? "text-[#1cafcf] " : ""}
                     href="/service"
                   >
                     Services
@@ -138,7 +108,7 @@ const Header = () => {
 
                 <li>
                   <Link
-                    className={pathname == "/about" ? "text-[#1c68f5] " : ""}
+                    className={pathname == "/about" ? "text-[#1cafcf] " : ""}
                     href="/about"
                   >
                     Why choose Talk4
@@ -148,7 +118,7 @@ const Header = () => {
                 <li>
                   <Link
                     className={
-                      pathname == "/remote-working" ? "text-[#1c68f5] " : ""
+                      pathname == "/remote-working" ? "text-[#1cafcf] " : ""
                     }
                     href="/remote-working"
                   >
@@ -159,7 +129,7 @@ const Header = () => {
                 <li>
                   <Link
                     className={
-                      pathname == "/support-center" ? "text-[#1c68f5] " : ""
+                      pathname == "/support-center" ? "text-[#1cafcf] " : ""
                     }
                     href="/support-center"
                   >
@@ -170,7 +140,7 @@ const Header = () => {
                 <li>
                   <Link
                     className={
-                      pathname == "/get-in-touch" ? "text-[#1c68f5] " : ""
+                      pathname == "/get-in-touch" ? "text-[#1cafcf] " : ""
                     }
                     href="/get-in-touch"
                   >
@@ -180,7 +150,7 @@ const Header = () => {
               </ul>
 
               <div className="flex flex-col sm:flex-row items-start gap-[0.88rem] mt-[1.44rem]">
-                {/* <button data-btn="primary" className="bg-[#1c68f5] w-full">
+                {/* <button data-btn="primary" className="bg-[#1cafcf] w-full">
                   Register
                 </button> */}
 
