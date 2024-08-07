@@ -1,16 +1,15 @@
 ---
 deployment:
-  target: 'public_html'
+  tasks:
+    - npm install
+    - npm run build
+    - npm run export
+  destination:
+    - /home/dsajbbvh/public_html/
   exclude:
-    - '.next'
-    - 'node_modules'
-    - 'package.json'
-    - 'package-lock.json'
-  include:
-    - 'index.html'
-    - 'static'
-    - 'styles.css'
-    - 'script.js'
-  permissions:
-    - '755'
-    - '644'
+    - node_modules/
+    - .next/
+    - package.json
+    - package-lock.json
+  cleanup:
+    - out/
